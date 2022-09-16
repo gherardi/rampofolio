@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Neue Montreal';
+    src: url('../fonts/neue-montreal-book.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Neue Montreal';
+    src: url('../fonts/neue-montreal-medium.otf') format('otf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  body {
+    @apply h-screen bg-gray-50 font-montreal text-slate-800 antialiased;
+  }
+  @media (hover: hover) {
+    body {
+      @apply cursor-none;
+    }
+  }
+}
