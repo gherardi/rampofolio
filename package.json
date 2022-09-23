@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dit public"
+    "build": "parcel build src/index.html --dist-dir public"
   },
   "keywords": [],
   "author": "Victor Gherardi",
@@ -12,7 +12,6 @@
     "@barba/core": "^2.9.7",
     "blobity": "^0.2.1",
     "gsap": "^3.11.1",
-    "leaflet": "^1.8.0",
     "smooth-scrollbar": "^8.8.1"
   },
   "devDependencies": {

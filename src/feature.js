@@ -10,7 +10,6 @@ const cursor = new Blobity({
   fontColor: '#000000',
   size: 10,
   fontSize: 16,
-  font: 'Neue Montreal',
   invert: true,
   zIndex: 10,
 });
